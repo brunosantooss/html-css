@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <h1>Quiz interativo paraa programadores</h1>
+        <h1>Quiz interativo para programadores</h1>
         <p>Teste seus conhecimentos em programação e veja qual a pontuação você consegue fazer!</p>
     </header>
     <main>
@@ -146,9 +146,27 @@
                     <li>Java</li>
                 </ol>
             </details>
-
+        </section>
+        <!--Formulário de Feedback-->
+        <section>
+            <h2>Nos dê o seu feedback</h2>
+            <form>                
+                <fieldset>
+                    <legend>Informações de contato</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome"> <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"> <br>
+                    <label for="comentarios">Comentários:</label> <br>
+                    <textarea name="comentarios" id="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui..."></textarea> <br>
+                    <button onclick="alert('FEEDBACK ENVIADO')">Enviar feedback</button>
+                </fieldset>
+            </form>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy Quiz de programadores. Todos os direitos reservador</p>
+        <p>Para conhecer outros quizzes <a href="sobremim.html" target="_blank">clique aqui</a></p>
+    </footer>
 </body>
 </html>
